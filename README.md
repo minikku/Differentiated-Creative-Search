@@ -14,5 +14,7 @@ Poomin Duankhan, Khamron Sunat, Sirapat Chiewchanwattana, Patchara Nasa-ngium (2
 
 Duankhan, P., Sunat, K., Chiewchanwattana, S., & Nasa-ngium, P. (2024). Supplementary code for: The Differentiated Creative Search (DCS): Leveraging Differentiated Knowledge-acquisition and Creative Realism to Address Complex Optimization Problems (2.0.0). Zenodo. https://doi.org/10.5281/zenodo.10842416
 
+[![Open in MATLAB Online](https://www.mathworks.com/images/responsive/global/open-in-matlab-online.svg)](https://www.mathworks.com/matlabcentral/fileexchange/161411-differentiated-creative-search-dcs)
+
 Note:
 To rerun the experiment, please extract the CEC 2017 input_data zip file into the local folder.
