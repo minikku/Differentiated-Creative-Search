@@ -14,7 +14,7 @@ Duankhan, P., Sunat, K., Chiewchanwattana, S., & Nasa-ngium, P. (2024). The Diff
 
 [![Open in MATLAB Online](https://www.mathworks.com/images/responsive/global/open-in-matlab-online.svg)](https://www.mathworks.com/matlabcentral/fileexchange/161411-differentiated-creative-search-dcs)
 
-** Note:**
+** Note: **
 To rerun the experiment, please extract the CEC 2017 input_data zip file into the local folder.
 
 ## License
