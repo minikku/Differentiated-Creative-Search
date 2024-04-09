@@ -1,8 +1,9 @@
 ## Related Paper
 The Differentiated Creative search (DCS): Leveraging Differentiated knowledge-acquisition and Creative realism to address complex optimization problems Available at https://doi.org/10.1016/j.eswa.2024.123734 (https://www.sciencedirect.com/science/article/pii/S0957417424006006)
 
-** Cite As: **
+```sh
 Duankhan, P., Sunat, K., Chiewchanwattana, S., & Nasa-ngium, P.  (2024). The Differentiated Creative Search (DCS): Leveraging  Differentiated knowledge-acquisition and Creative realism to address  complex optimization problems. Expert Systems with Applications, 123734. https://doi.org/10.1016/j.eswa.2024.123734
+```
 
 ## Repository
 
