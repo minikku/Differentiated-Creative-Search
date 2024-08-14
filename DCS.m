@@ -3,13 +3,12 @@
 % Differentiated Creative Search (DCS)
 
 % CITATION:
-% Duankhan P., Sunat K., Chiewchanwattana S., and Nasa-ngium P. "The Differentiated Creative Search (DCS): Leveraging Differentiated Knowledge-acquisition and Creative Realism
-% to Address Complex Optimization Problems". (Accepted for publication in Expert Systems with Applications)
+% Duankhan, P., Sunat, K., Chiewchanwattana, S., & Nasa-Ngium, P. (2024). The Differentiated Creative search (DCS): 
+% Leveraging Differentiated knowledge-acquisition and Creative realism to address complex optimization problems. 
+% Expert Systems With Applications, 123734. https://doi.org/10.1016/j.eswa.2024.123734
 % =============================================================================================================================================================================
 
 function [best_cost,best_x,convergence_curve,cul_solution,cul_nfe] = DCS(search_agent_no,max_nfe,lb,ub,dim,fobj)
-
-%disp('DCS is now tackling your problem');
 
 rng(sum(100*clock));
 
@@ -151,6 +150,11 @@ function [sorted_population, sorted_fitness, sorted_index] = PopSort(input_pop,i
 sorted_population = input_pop(sorted_index,:);
 end
 
+% The Linnik random number generator was implemented based on the methodology described in the original publication 
+% by Nasa-Ngium, P., Sunat, K., & Chiewchanwattana, S. (2019). 
+% Their study, titled "Impacts of Linnik Flight Usage Patterns on Cuckoo Search for Real-Parameter Global Optimization Problems," 
+% was published in IEEE Access, Volume 7, pages 83932–83961. DOI: https://doi.org/10.1109/access.2019.2923557.
+
 function Y = LnF3(alpha, sigma, m, n)
 Z = laplacernd(m, n);
 Z = sign(rand(m,n)-0.5) .* Z;
@@ -165,11 +169,13 @@ u2 = rand(m, n);
 x = log(u1./u2);
 end
 
+% The boundary checking function using the interpolation technique 
+% was adopted from the original publication of the JADE algorithm by Zhang and Sanderson.
+
 function vi = boundConstraint(vi, pop, lu)
 
 % if the boundary constraint is violated, set the value to be the middle
 % of the previous value and the bound
-%
 % Version: 1.1   Date: 11/20/2007
 % Written by Jingqiao Zhang, jingqiao@gmail.com
 
