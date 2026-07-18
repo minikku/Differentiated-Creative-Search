@@ -1,8 +1,28 @@
-## Related Paper
+## Differentiated Creative search (DCS)
 The Differentiated Creative search (DCS): Leveraging Differentiated knowledge-acquisition and Creative realism to address complex optimization problems Available at https://doi.org/10.1016/j.eswa.2024.123734
 
 > Duankhan, P., Sunat, K., Chiewchanwattana, S., & Nasa-ngium, P.  (2024). The Differentiated Creative Search (DCS): Leveraging  Differentiated knowledge-acquisition and Creative realism to address  complex optimization problems. Expert Systems with Applications, 123734. https://doi.org/10.1016/j.eswa.2024.123734
 
+# DCS-VSE: Variable-Length Evolutionary Search for Compact Neural Models
+
+Reference implementation for the paper
+
+> **Enabling Variable-Length Evolutionary Search: Cross-Length Alignment, a Transformation Criterion, and Compact Neural Models for Biomedical Tabular Prediction.**
+> Poomin Duankhan, Chitsutha Soomlek, Sirapat Chiewchanwattana, Khamron Sunat.
+> Khon Kaen University. Submitted to *Intelligent Systems with Applications*.
+
+DCS-VSE extends **Differentiated Creative Search (DCS)**, a rank-guided evolutionary
+optimizer, so that it can search over the *structural size* of a solution and its
+continuous parameters at the same time. The enabling primitive is **cross-length
+alignment**: every cross-candidate operation is restricted to the shared prefix of the
+two candidates, which keeps rank-guided, difference-based, and peer-transfer updates well
+defined across candidates of different dimensionality. The same idea is packaged as a
+reusable **transformation criterion** that decides which fixed-length optimizers can be
+lifted to variable length. The method is instantiated on compact single-hidden-layer
+networks (SLNNs) and a dendritic neuron model, and benchmarked on eighteen public
+biomedical tabular datasets.
+
+**Code:** [https://github.com/minikku/Variable-Length-Differentiated-Creative-Search](https://github.com/minikku/Variable-Length-Differentiated-Creative-Search)
 
 ## Repository
 
