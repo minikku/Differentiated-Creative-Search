@@ -3,7 +3,7 @@ The Differentiated Creative search (DCS): Leveraging Differentiated knowledge-ac
 
 > Duankhan, P., Sunat, K., Chiewchanwattana, S., & Nasa-ngium, P.  (2024). The Differentiated Creative Search (DCS): Leveraging  Differentiated knowledge-acquisition and Creative realism to address  complex optimization problems. Expert Systems with Applications, 123734. https://doi.org/10.1016/j.eswa.2024.123734
 
-# Variable Length Differentiated Creative Search
+## Variable Length Differentiated Creative Search
 
 Reference implementation for the paper
 
