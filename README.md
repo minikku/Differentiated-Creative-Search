@@ -3,16 +3,6 @@ The Differentiated Creative search (DCS): Leveraging Differentiated knowledge-ac
 
 > Duankhan, P., Sunat, K., Chiewchanwattana, S., & Nasa-ngium, P.  (2024). The Differentiated Creative Search (DCS): Leveraging  Differentiated knowledge-acquisition and Creative realism to address  complex optimization problems. Expert Systems with Applications, 123734. https://doi.org/10.1016/j.eswa.2024.123734
 
-## Variable Length Differentiated Creative Search
-
-Reference implementation for the paper
-
-> **Enabling Variable-Length Evolutionary Search: Cross-Length Alignment, a Transformation Criterion, and Compact Neural Models for Biomedical Tabular Prediction.**
-> Poomin Duankhan, Chitsutha Soomlek, Sirapat Chiewchanwattana, Khamron Sunat.
-> Khon Kaen University. Submitted to *Intelligent Systems with Applications*.
-
-**Code:** [https://github.com/minikku/Variable-Length-Differentiated-Creative-Search](https://github.com/minikku/Variable-Length-Differentiated-Creative-Search)
-
 ## Repository
 
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.10842416.svg)](https://doi.org/10.5281/zenodo.10842416)
